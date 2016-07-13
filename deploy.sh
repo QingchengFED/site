@@ -13,6 +13,6 @@ cp .travis/ssh_config ~/.ssh/config
 git config --global user.name "QingchengFED"
 git config --global user.email wxttt@qingcheng.it
 # Clone the repository
-git clone https://github.com/QingchengFED/QingchengFED.github.io.git .deploy_git
+git clone git@github.com:QingchengFED/QingchengFED.github.io.git .deploy_git
 # Deploy to GitHub
 npm run deploy
