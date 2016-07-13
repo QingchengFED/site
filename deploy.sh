@@ -1,6 +1,6 @@
 #!/bin/bash
 # Decrypt the private key
-openssl aes-256-cbc -K $encrypted_5fe25b209e01_key -iv $encrypted_5fe25b209e01_iv -in .travis/id_rsa_fed_site.enc -out ~/.ssh/id_rsa -d
+openssl aes-256-cbc -K $encrypted_5fe25b209e01_key -iv $encrypted_5fe25b209e01_iv -in .travis/id_rsa_blog_new.enc -out ~/.ssh/id_rsa -d
 # Set the permission of the key
 chmod 600 ~/.ssh/id_rsa
 # Start SSH agent
